@@ -7,6 +7,10 @@ module.exports = function(app) {
         .get(todoList.list_all_tasks)
         .post(todoList.create_a_task);
 
+    /*app.route('/vid')
+        .get(todoList.list_all_vid)
+        .post(todoList.create_a_vid);*/
+
 
     app.route('/tasks/:taskId')
         .get(todoList.read_a_task)

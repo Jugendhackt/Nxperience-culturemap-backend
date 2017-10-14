@@ -1,7 +1,8 @@
 'use strict';
+var fs = require('fs');
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
 
+var Schema = mongoose.Schema;
 
 var TaskSchema = new Schema({
     description: {
