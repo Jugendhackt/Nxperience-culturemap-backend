@@ -4,20 +4,18 @@ var Schema = mongoose.Schema;
 
 
 var TaskSchema = new Schema({
-    name: {
+    description: {
         type: String,
-        required: 'Kindly enter the name of the task'
     },
-    Created_date: {
+    tags: {
+        type: String,
+    },
+    vid_url: {
+        type: String,
+    },
+    insert_date: {
         type: Date,
         default: Date.now
-    },
-    status: {
-        type: [{
-            type: String,
-            enum: ['pending', 'ongoing', 'completed']
-        }],
-        default: ['pending']
     }
 });
 
