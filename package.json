@@ -1,0 +1,26 @@
+{
+  "name": "nextperience-backend",
+  "version": "1.0.0",
+  "description": "restapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "blitze299",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "mongoose": "^4.12.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jugendhackt/Nxperience-culturemap-backend.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jugendhackt/Nxperience-culturemap-backend/issues"
+  },
+  "homepage": "https://github.com/Jugendhackt/Nxperience-culturemap-backend#readme"
+}
